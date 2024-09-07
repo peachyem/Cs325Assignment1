@@ -2,7 +2,7 @@
 
 yards = int(input("Enter your yardage: "))
 patternmeters = int(input("Enter your pattern requirements in meters: "))
-meters = yards / 1.094
+meters = yards * 1.094
 if(meters > patternmeters):
     print("You have enough yarn:)")
 else:
